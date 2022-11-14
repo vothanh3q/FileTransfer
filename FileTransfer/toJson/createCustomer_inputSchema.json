@@ -1,0 +1,25 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "customerCode" : {
+      "id" : "http://wso2jsonschema.org/customerCode",
+      "type" : "string"
+    },
+    "customerName" : {
+      "id" : "http://wso2jsonschema.org/customerName",
+      "type" : "string"
+    },
+    "action" : {
+      "id" : "http://wso2jsonschema.org/action",
+      "type" : "string"
+    },
+    "address" : {
+      "id" : "http://wso2jsonschema.org/address",
+      "type" : "string"
+    }
+  }
+}

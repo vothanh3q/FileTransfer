@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_xW51QGO-Ee2DRNQbNNHGJw" type="DataMapper" name="createCustomer.datamapper_diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xW51QWO-Ee2DRNQbNNHGJw"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="createCustomer.datamapper#/"/>
+</notation:Diagram>

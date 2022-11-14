@@ -1,0 +1,21 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "makh" : {
+      "id" : "http://wso2jsonschema.org/makh",
+      "type" : "string"
+    },
+    "tenkh" : {
+      "id" : "http://wso2jsonschema.org/tenkh",
+      "type" : "string"
+    },
+    "diachi" : {
+      "id" : "http://wso2jsonschema.org/diachi",
+      "type" : "string"
+    }
+  }
+}

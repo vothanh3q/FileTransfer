@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="uploadFile" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/uploadFile.xml</file>
+    </artifact>
+    <artifact name="uploadFile_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/uploadFile_swagger.yaml</file>
+    </artifact>
+    <artifact name="uploadFile_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/uploadFile_metadata.yaml</file>
+    </artifact>
+    <artifact name="upload" groupId="com.example.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>\src\main\synapse-config\local-entries\upload.xml</file>
+    </artifact>
+    <artifact name="updateKhachHang" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateKhachHang.xml</file>
+    </artifact>
+</artifacts>

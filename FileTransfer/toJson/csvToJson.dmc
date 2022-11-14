@@ -1,0 +1,18 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+var count_i_inputroot_32e1d506_74b4_4b91_9c5c_72a904f7fd76 = 0;
+outputroot =  {};
+
+for(i_inputroot_32e1d506_74b4_4b91_9c5c_72a904f7fd76 in inputroot){
+outputroot.makh = inputroot[i_inputroot_32e1d506_74b4_4b91_9c5c_72a904f7fd76].column1;
+outputroot.tenkh = inputroot[i_inputroot_32e1d506_74b4_4b91_9c5c_72a904f7fd76].column2;
+outputroot.diachi = inputroot[i_inputroot_32e1d506_74b4_4b91_9c5c_72a904f7fd76].column2;
+
+count_i_inputroot_32e1d506_74b4_4b91_9c5c_72a904f7fd76++;
+}
+return outputroot;
+};
+
+
+
