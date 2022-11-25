@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_C31HwGcUEe248Jb1Y0uhNQ" type="Esb" name="schedulerScanFile" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_C4a9oGcUEe248Jb1Y0uhNQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_C4bksGcUEe248Jb1Y0uhNQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_GEnM0GcUEe248Jb1Y0uhNQ" type="3767">
+        <children xmi:type="notation:Node" xmi:id="_GE0BIGcUEe248Jb1Y0uhNQ" type="3768">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GE0BIWcUEe248Jb1Y0uhNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GE0BImcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GE0BI2cUEe248Jb1Y0uhNQ"/>
+          <element xmi:type="esb:InboundEndpointSequenceInputConnector" href="schedulerScanFile.esb#//@server/@children.0/@sequenceInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GE0BJGcUEe248Jb1Y0uhNQ" x="-6" y="-5"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GE0BJWcUEe248Jb1Y0uhNQ" type="3769">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GE0BJmcUEe248Jb1Y0uhNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GE0BJ2cUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GE0BKGcUEe248Jb1Y0uhNQ"/>
+          <element xmi:type="esb:InboundEndpointSequenceOutputConnector" href="schedulerScanFile.esb#//@server/@children.0/@sequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GE0BKWcUEe248Jb1Y0uhNQ" x="86" y="-29"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GE0BKmcUEe248Jb1Y0uhNQ" type="3770">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GE0BK2cUEe248Jb1Y0uhNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GE0BLGcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GE0BLWcUEe248Jb1Y0uhNQ"/>
+          <element xmi:type="esb:InboundEndpointOnErrorSequenceInputConnector" href="schedulerScanFile.esb#//@server/@children.0/@onErrorSequenceInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GE0BLmcUEe248Jb1Y0uhNQ" x="-6" y="-5"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GE0BL2cUEe248Jb1Y0uhNQ" type="3771">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GE0BMGcUEe248Jb1Y0uhNQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GE0BMWcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_GE0BMmcUEe248Jb1Y0uhNQ"/>
+          <element xmi:type="esb:InboundEndpointOnErrorSequenceOutputConnector" href="schedulerScanFile.esb#//@server/@children.0/@onErrorSequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GE0BM2cUEe248Jb1Y0uhNQ" x="86" y="19"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GE0BNGcUEe248Jb1Y0uhNQ" type="3772" fontName="Segoe UI">
+          <element xmi:type="esb:InboundEndpointContainer" href="schedulerScanFile.esb#//@server/@children.0/@container"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GE0BNWcUEe248Jb1Y0uhNQ"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_GEnM0WcUEe248Jb1Y0uhNQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_GEnM0mcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_GEnM02cUEe248Jb1Y0uhNQ"/>
+        <element xmi:type="esb:InboundEndpoint" href="schedulerScanFile.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GEnM1GcUEe248Jb1Y0uhNQ" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C4a9oWcUEe248Jb1Y0uhNQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C4a9omcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_C4a9o2cUEe248Jb1Y0uhNQ"/>
+    <element xmi:type="esb:EsbServer" href="schedulerScanFile.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C4a9pGcUEe248Jb1Y0uhNQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_C31HwWcUEe248Jb1Y0uhNQ"/>
+  <element xmi:type="esb:EsbDiagram" href="schedulerScanFile.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_GFvOOmcUEe248Jb1Y0uhNQ" type="4001" source="_GE0BJWcUEe248Jb1Y0uhNQ" target="_GFhLwGcUEe248Jb1Y0uhNQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GFvOO2cUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="schedulerScanFile.esb#//@server/@children.0/@sequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GFvOPGcUEe248Jb1Y0uhNQ" points="[5, 5, -12, -11]$[11, 11, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GF4_MGcUEe248Jb1Y0uhNQ" type="4001" source="_GE0BL2cUEe248Jb1Y0uhNQ" target="_GFvOMGcUEe248Jb1Y0uhNQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GF4_MWcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="schedulerScanFile.esb#//@server/@children.0/@onErrorSequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GF4_MmcUEe248Jb1Y0uhNQ" points="[6, 4, -11, -9]$[11, 8, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GF5mQGcUEe248Jb1Y0uhNQ" type="4001" source="_GFpHkGcUEe248Jb1Y0uhNQ" target="_GE0BIGcUEe248Jb1Y0uhNQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GF5mQWcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="schedulerScanFile.esb#//@server/@children.0/@container/@sequenceContainer/@mediatorFlow/@children.0/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GF5mQmcUEe248Jb1Y0uhNQ" points="[-6, 0, 103, -8]$[-103, 7, 6, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GF5mQ2cUEe248Jb1Y0uhNQ" type="4001" source="_GFvONWcUEe248Jb1Y0uhNQ" target="_GE0BKmcUEe248Jb1Y0uhNQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GF5mRGcUEe248Jb1Y0uhNQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="schedulerScanFile.esb#//@server/@children.0/@container/@onErrorSequenceContainer/@mediatorFlow/@children.0/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GF5mRWcUEe248Jb1Y0uhNQ" points="[-6, -3, 103, 34]$[-103, -35, 6, 2]"/>
+  </edges>
+</notation:Diagram>

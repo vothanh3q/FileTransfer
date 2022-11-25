@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Sequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full"/>
+    <datamapper config="gov:datamapper/FileScanner.dmc" inputSchema="gov:datamapper/FileScanner_inputSchema.json" inputType="CSV" outputSchema="gov:datamapper/FileScanner_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/FileScanner_xsltStyleSheet.xml"/>
+    <iterate expression="json-eval($.*)">
+        <target>
+            <sequence>
+                <property expression="json-eval($.id)" name="getId" scope="default" type="STRING"/>
+                <log/>
+                <filter xpath="get-property('getId') != null">
+                    <then>
+                        <payloadFactory media-type="json">
+                            <format>{&#xd;
+        "makh": "$1",&#xd;
+        "tenkh": "$2",&#xd;
+        "diachi": "$3"&#xd;
+    }</format>
+                            <args>
+                                <arg evaluator="json" expression="$.makh"/>
+                                <arg evaluator="json" expression="$.tenkh"/>
+                                <arg evaluator="json" expression="$.diachi"/>
+                            </args>
+                        </payloadFactory>
+                        <property expression="fn:concat('http://localhost:8888/update?id=', get-property('getId'))" name="uri.var.url" scope="default" type="STRING"/>
+                        <log/>
+                        <call>
+                            <endpoint>
+                                <http method="put" uri-template="{uri.var.url}">
+                                    <suspendOnFailure>
+                                        <initialDuration>-1</initialDuration>
+                                        <progressionFactor>-1</progressionFactor>
+                                        <maximumDuration>0</maximumDuration>
+                                    </suspendOnFailure>
+                                    <markForSuspension>
+                                        <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                                    </markForSuspension>
+                                </http>
+                            </endpoint>
+                        </call>
+                        <log/>
+                    </then>
+                    <else>
+                        <log level="full">
+                            <property expression="get-property('getId')" name="id"/>
+                        </log>
+                    </else>
+                </filter>
+            </sequence>
+        </target>
+    </iterate>
+</sequence>

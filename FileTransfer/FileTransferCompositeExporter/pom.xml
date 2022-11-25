@@ -15,31 +15,46 @@
   <description>FileTransferCompositeExporter</description>
   <properties>
     <com.example.resource_._jsonToJson_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._jsonToJson_xsltStyleSheet>
+    <com.example.resource_._ScanningFile_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._ScanningFile_inputSchema>
     <com.example.resource_._createJson>capp/EnterpriseServiceBus</com.example.resource_._createJson>
+    <com.example.resource_._FileScanner_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._FileScanner_outputSchema>
     <com.example.resource_._createCustomer>capp/EnterpriseServiceBus</com.example.resource_._createCustomer>
     <com.example.resource_._createJson_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._createJson_outputSchema>
+    <com.example.resource_._ScanningFile_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._ScanningFile_outputSchema>
     <com.example.resource_._convertToJson>capp/ApplicationServer</com.example.resource_._convertToJson>
     <com.example.resource_._csvToJson_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._csvToJson_xsltStyleSheet>
+    <com.example.resource_._ScanFileCSV_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._ScanFileCSV_xsltStyleSheet>
     <com.example.resource_._csvToJson_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._csvToJson_inputSchema>
     <com.example.resource_._createJson_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._createJson_inputSchema>
     <com.example.resource_._createCustomer_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._createCustomer_inputSchema>
     <com.example.resource_._createCustomer_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._createCustomer_outputSchema>
+    <com.example.resource_._FileScanner>capp/EnterpriseServiceBus</com.example.resource_._FileScanner>
+    <com.example.resource_._FileScanner_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._FileScanner_xsltStyleSheet>
     <com.example.resource_._convertToJson_outputSchema>capp/ApplicationServer</com.example.resource_._convertToJson_outputSchema>
     <com.example.resource_._jsonToJson>capp/EnterpriseServiceBus</com.example.resource_._jsonToJson>
+    <com.example.inbound-endpoint_._schedulerScanFile>capp/EnterpriseServiceBus</com.example.inbound-endpoint_._schedulerScanFile>
+    <com.example.endpoint_._updateKhachHang>capp/EnterpriseServiceBus</com.example.endpoint_._updateKhachHang>
+    <com.example.resource_._ScanFileCSV>capp/EnterpriseServiceBus</com.example.resource_._ScanFileCSV>
     <com.example.resource_._csvToJson_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._csvToJson_outputSchema>
-    <com.example.api_._uploadFile>capp/EnterpriseServiceBus</com.example.api_._uploadFile>
+    <com.example.resource_._ScanFileCSV_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._ScanFileCSV_inputSchema>
+    <com.example.resource_._ScanFileCSV_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._ScanFileCSV_outputSchema>
     <com.example.resource_._csvToJson>capp/EnterpriseServiceBus</com.example.resource_._csvToJson>
+    <com.example.api_._uploadFile>capp/EnterpriseServiceBus</com.example.api_._uploadFile>
     <com.example.resource_._jsonToJson_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._jsonToJson_inputSchema>
     <com.example.resource_._jsonToJson_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._jsonToJson_outputSchema>
     <com.example.resource_._createCustomer_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._createCustomer_xsltStyleSheet>
     <com.example.resource_._createJson_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._createJson_xsltStyleSheet>
+    <com.example.resource_._ScanningFile>capp/EnterpriseServiceBus</com.example.resource_._ScanningFile>
+    <com.example.sequence_._Sequence>capp/EnterpriseServiceBus</com.example.sequence_._Sequence>
     <com.example.metadata_._uploadFile_swagger>capp/EnterpriseServiceBus</com.example.metadata_._uploadFile_swagger>
     <com.example.resource_._convertToJson_inputSchema>capp/ApplicationServer</com.example.resource_._convertToJson_inputSchema>
     <com.example.lib_._file-connector>capp/EnterpriseServiceBus</com.example.lib_._file-connector>
+    <com.example.resource_._ScanningFile_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._ScanningFile_xsltStyleSheet>
     <com.example.metadata_._uploadFile_metadata>capp/EnterpriseServiceBus</com.example.metadata_._uploadFile_metadata>
     <com.example.local-entry_._upload>capp/EnterpriseServiceBus</com.example.local-entry_._upload>
     <com.example.resource_._convertToJson_xsltStyleSheet>capp/ApplicationServer</com.example.resource_._convertToJson_xsltStyleSheet>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.resource_._FileScanner_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._FileScanner_inputSchema>
   </properties>
   <dependencies>
     <dependency>
@@ -50,7 +65,7 @@
     </dependency>
     <dependency>
       <groupId>com.example.resource</groupId>
-      <artifactId>csvToJson_outputSchema</artifactId>
+      <artifactId>ScanningFile_inputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>
@@ -62,7 +77,121 @@
     </dependency>
     <dependency>
       <groupId>com.example.resource</groupId>
+      <artifactId>FileScanner_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
       <artifactId>createCustomer</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>createJson_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>ScanningFile_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>csvToJson_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>ScanFileCSV_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>csvToJson_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>createJson_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>createCustomer_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>createCustomer_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>FileScanner</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>FileScanner_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>jsonToJson</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.inbound-endpoint</groupId>
+      <artifactId>schedulerScanFile</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>updateKhachHang</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>ScanFileCSV</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>csvToJson_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>ScanFileCSV_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>ScanFileCSV_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>csvToJson</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>
@@ -74,18 +203,6 @@
     </dependency>
     <dependency>
       <groupId>com.example.resource</groupId>
-      <artifactId>createJson_outputSchema</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.resource</groupId>
-      <artifactId>csvToJson</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.resource</groupId>
       <artifactId>jsonToJson_inputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
@@ -93,12 +210,6 @@
     <dependency>
       <groupId>com.example.resource</groupId>
       <artifactId>jsonToJson_outputSchema</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.resource</groupId>
-      <artifactId>csvToJson_xsltStyleSheet</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>
@@ -116,15 +227,15 @@
     </dependency>
     <dependency>
       <groupId>com.example.resource</groupId>
-      <artifactId>csvToJson_inputSchema</artifactId>
+      <artifactId>ScanningFile</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>com.example.resource</groupId>
-      <artifactId>createJson_inputSchema</artifactId>
+      <groupId>com.example.sequence</groupId>
+      <artifactId>Sequence</artifactId>
       <version>1.0.0</version>
-      <type>zip</type>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
@@ -133,21 +244,15 @@
       <type>yaml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.resource</groupId>
-      <artifactId>createCustomer_inputSchema</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.resource</groupId>
-      <artifactId>createCustomer_outputSchema</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
       <groupId>com.example.lib</groupId>
       <artifactId>file-connector</artifactId>
       <version>4.0.12</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>ScanningFile_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
       <type>zip</type>
     </dependency>
     <dependency>
@@ -164,7 +269,7 @@
     </dependency>
     <dependency>
       <groupId>com.example.resource</groupId>
-      <artifactId>jsonToJson</artifactId>
+      <artifactId>FileScanner_inputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>

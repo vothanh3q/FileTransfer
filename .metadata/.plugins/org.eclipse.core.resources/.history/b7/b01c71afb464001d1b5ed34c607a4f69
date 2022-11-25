@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Sequence.xml" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <datamapper config="gov:datamapper/ScanningFile.dmc" inputSchema="gov:datamapper/ScanningFile_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/ScanningFile_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/ScanningFile_xsltStyleSheet.xml"/>
+    <iterate expression="">
+        <target>
+            <sequence/>
+        </target>
+    </iterate>
+</sequence>

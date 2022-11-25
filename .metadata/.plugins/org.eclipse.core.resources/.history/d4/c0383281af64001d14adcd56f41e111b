@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/uploadFile" name="uploadFile" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" url-mapping="/add">
+        <inSequence>
+            <property expression="json-eval($.filePath)" name="filePath" scope="default" type="STRING"/>
+            <log level="full"/>
+            <file.read configKey="upload">
+                <path>{$ctx:filePath}</path>
+                <readMode>Complete File</readMode>
+                <startLineNum>0</startLineNum>
+                <endLineNum>0</endLineNum>
+                <lineNum>0</lineNum>
+                <contentType>text/plain</contentType>
+                <includeResultTo>Message Body</includeResultTo>
+                <enableStreaming>false</enableStreaming>
+                <enableLock>false</enableLock>
+            </file.read>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/csvToJson.dmc" inputSchema="gov:datamapper/csvToJson_inputSchema.json" inputType="CSV" outputSchema="gov:datamapper/csvToJson_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/csvToJson_xsltStyleSheet.xml"/>
+            <log level="full"/>
+            <call>
+                <endpoint>
+                    <http method="put" uri-template="http://localhost:8888/update?id=1">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>-1</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <log category="ERROR" level="full"/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/getCus?customerId={customerId}">
+        <inSequence>
+            <log category="DEBUG" level="full">
+                <property name="customerId" value="get-property('uri.var.customerId')"/>
+            </log>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="http://localhost:8888/getCustomerById?id={uri.var.customerId}">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>-1</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <log category="ERROR"/>
+        </faultSequence>
+    </resource>
+    <resource methods="PUT" uri-template="/updateCus?customerId={customerId}">
+        <inSequence>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/jsonToJson.dmc" inputSchema="gov:datamapper/jsonToJson_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/jsonToJson_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/jsonToJson_xsltStyleSheet.xml"/>
+            <log/>
+            <call>
+                <endpoint>
+                    <http method="put" uri-template="http://localhost:8888/update?id=1">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>-1</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <log category="ERROR" level="full"/>
+        </faultSequence>
+    </resource>
+    <resource methods="POST" uri-template="/create">
+        <inSequence>
+            <datamapper config="gov:datamapper/createJson.dmc" inputSchema="gov:datamapper/createJson_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/createJson_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/createJson_xsltStyleSheet.xml"/>
+            <log/>
+            <call>
+                <endpoint>
+                    <http method="post" uri-template="http://localhost:8888/create">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>-1</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/switch?customerId={customerId}">
+        <inSequence>
+            <property expression="json-eval($.action)" name="action" scope="default" type="STRING"/>
+            <datamapper config="gov:datamapper/createCustomer.dmc" inputSchema="gov:datamapper/createCustomer_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/createCustomer_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/createCustomer_xsltStyleSheet.xml"/>
+            <log level="full"/>
+            <switch source="get-property('action')">
+                <case regex="create">
+                    <log level="full"/>
+                    <send>
+                        <endpoint>
+                            <http method="post" uri-template="http://localhost:8888/create">
+                                <suspendOnFailure>
+                                    <initialDuration>-1</initialDuration>
+                                    <progressionFactor>-1</progressionFactor>
+                                    <maximumDuration>0</maximumDuration>
+                                </suspendOnFailure>
+                                <markForSuspension>
+                                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                                </markForSuspension>
+                            </http>
+                        </endpoint>
+                    </send>
+                </case>
+                <case regex="update">
+                    <log level="full"/>
+                    <send>
+                        <endpoint>
+                            <http method="put" uri-template="http://localhost:8888/update?id={uri.var.customerId}">
+                                <suspendOnFailure>
+                                    <initialDuration>-1</initialDuration>
+                                    <progressionFactor>-1</progressionFactor>
+                                    <maximumDuration>0</maximumDuration>
+                                </suspendOnFailure>
+                                <markForSuspension>
+                                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                                </markForSuspension>
+                            </http>
+                        </endpoint>
+                    </send>
+                </case>
+                <default/>
+            </switch>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

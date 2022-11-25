@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_xk6JQGS0Ee2v6YlMrS4Sqw" type="DataMapper" name="FileScanner.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_xngxUGS0Ee2v6YlMrS4Sqw" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_yPhMgGS0Ee2v6YlMrS4Sqw" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yPhMgmS0Ee2v6YlMrS4Sqw" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_yPnTIGS0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yPnTImS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPnTIWS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yPn6MGS0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yPn6MmS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_yP1VkGS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yP1VkWS0Ee2v6YlMrS4Sqw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yP1VkmS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yP1Vk2S0Ee2v6YlMrS4Sqw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPn6MWS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yPn6M2S0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yPn6NWS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_yP8qUGS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yP8qUWS0Ee2v6YlMrS4Sqw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yP8qUmS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yP8qU2S0Ee2v6YlMrS4Sqw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPn6NGS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yPn6NmS0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yPn6OGS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_yQD_EGS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.3/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQD_EWS0Ee2v6YlMrS4Sqw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yQD_EmS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.3/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQD_E2S0Ee2v6YlMrS4Sqw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@input/@treeNode.0/@node.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPn6N2S0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yPn6OWS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPn6OmS0Ee2v6YlMrS4Sqw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yPn6O2S0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPn6PGS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPhMgWS0Ee2v6YlMrS4Sqw"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="FileScanner.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xngxUWS0Ee2v6YlMrS4Sqw" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xngxUmS0Ee2v6YlMrS4Sqw" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_y8TaAGS0Ee2v6YlMrS4Sqw" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_y8TaAmS0Ee2v6YlMrS4Sqw" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_y8auwGS0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_y8auwmS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_y8gOUGS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8gOUWS0Ee2v6YlMrS4Sqw" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_y8gOUmS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8gOU2S0Ee2v6YlMrS4Sqw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8auwWS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_y8auw2S0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_y8auxWS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_y8m8AGS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8m8AWS0Ee2v6YlMrS4Sqw" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_y8m8AmS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8m8A2S0Ee2v6YlMrS4Sqw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8auxGS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_y8auxmS0Ee2v6YlMrS4Sqw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_y8auyGS0Ee2v6YlMrS4Sqw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_y8uQwGS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8uQwWS0Ee2v6YlMrS4Sqw" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_y8uQwmS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8uQw2S0Ee2v6YlMrS4Sqw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@output/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8aux2S0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_y8auyWS0Ee2v6YlMrS4Sqw" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="FileScanner.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8auymS0Ee2v6YlMrS4Sqw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_y8bV0GS0Ee2v6YlMrS4Sqw" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="FileScanner.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8bV0WS0Ee2v6YlMrS4Sqw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="FileScanner.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8TaAWS0Ee2v6YlMrS4Sqw"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="FileScanner.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xngxU2S0Ee2v6YlMrS4Sqw" x="310" width="250" height="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xk6JQWS0Ee2v6YlMrS4Sqw"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="FileScanner.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_zS8YYGS0Ee2v6YlMrS4Sqw" type="4001" source="_yP8qUmS0Ee2v6YlMrS4Sqw" target="_y8m8AGS0Ee2v6YlMrS4Sqw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zS8YYWS0Ee2v6YlMrS4Sqw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FileScanner.datamapper#//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zS8YYmS0Ee2v6YlMrS4Sqw" points="[-2, 0, -252, 20]$[248, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zTCfAGS0Ee2v6YlMrS4Sqw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zTCfAWS0Ee2v6YlMrS4Sqw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_z-_mEGS0Ee2v6YlMrS4Sqw" type="4001" source="_yP1VkmS0Ee2v6YlMrS4Sqw" target="_y8gOUGS0Ee2v6YlMrS4Sqw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_z-_mEWS0Ee2v6YlMrS4Sqw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FileScanner.datamapper#//@input/@treeNode.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z-_mEmS0Ee2v6YlMrS4Sqw" points="[-2, 0, -252, 20]$[248, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z_BbQGS0Ee2v6YlMrS4Sqw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z_BbQWS0Ee2v6YlMrS4Sqw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0KZk0GS0Ee2v6YlMrS4Sqw" type="4001" source="_yQD_EmS0Ee2v6YlMrS4Sqw" target="_y8uQwGS0Ee2v6YlMrS4Sqw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0KZk0WS0Ee2v6YlMrS4Sqw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FileScanner.datamapper#//@input/@treeNode.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0KZk0mS0Ee2v6YlMrS4Sqw" points="[-2, 0, -252, 20]$[248, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0KbaAGS0Ee2v6YlMrS4Sqw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0KcBEGS0Ee2v6YlMrS4Sqw" id="CENTER"/>
+  </edges>
+</notation:Diagram>

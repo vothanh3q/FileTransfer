@@ -1,0 +1,20 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+var count_i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5 = 0;
+outputroot =  [];
+
+for(i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5 in inputroot){
+outputroot[count_i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5] =  {};
+outputroot[count_i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5].makh = inputroot[i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5].makh;
+outputroot[count_i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5].tenkh = inputroot[i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5].tenkh;
+outputroot[count_i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5].diachi = inputroot[i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5].diachi;
+
+count_i_inputroot_52c2fb32_322e_4279_89f1_a0f75f94a2a5++;
+}
+return outputroot;
+};
+
+
+
+

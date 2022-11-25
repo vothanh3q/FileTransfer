@@ -1,0 +1,1 @@
+<inboundEndpoint xmlns="http://ws.apache.org/ns/synapse" name="schedulerScanFile" sequence="Sequence" onError="Sequence" protocol="file" suspend="false"><parameters/></inboundEndpoint>
